@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Команда разработчиков</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 1. ТО ЖЕ фиксированное меню -->
+    <header class="nav-bar">
+        <img src="img/logo.png" alt="Логотип компании" class="nav-logo">
+        <nav class="nav-menu">
+            <a href="index.html"   class="nav-link">О компании</a>
+            <a href="team.html" class="nav-link">Разработчики</a>
+            <a href="projects.html" class="nav-link">Проекты</a>
+        </nav>
+    </header>
+
+    <!-- 2. Основной контент 1280×998 -->
+    <main class="page team-page">
+        <section class="dev-grid">
+            <!-- 1 -->
+            <div class="dev-card">
+                <img src="img/dev.jpg" alt="Ars" class="dev-photo">
+                <h3 class="dev-name">Арсений Ковалев</h3>
+                <p class="dev-desc">
+                    Role: Core-platform architect, Rust + Go<br>
+                    Flagship project: NexusFabric — собственный распределённый mesh-рантайм, благодаря которому uptime компании держится на 99,9 %. Переписал критичный C++ модуль за 6 недель, снизил latency в 2,3×.
+                </p>
+            </div>
+
+            <!-- 2 -->
+            <div class="dev-card">
+                <img src="img/dev.jpg" alt="Poly" class="dev-photo">
+                <h3 class="dev-name">Иван Петров</h3>
+                <p class="dev-desc">
+                    Role: ML-Engineer, Python + PyTorch + CUDA<br>
+                    Flagship project: ProphetAnomaly — unsupervised-модель для предикта сбоев в инфраструктуре клиента. Внедрена в 2024, сократила количество инцидентов на 38 % и принесла +8 к NPS.
+                </p>
+            </div>
+
+            <!-- 3 -->
+            <div class="dev-card">
+                <img src="img/dev.jpg" alt="Dim0n" class="dev-photo">
+                <h3 class="dev-name">Дмитрий Сидоров</h3>
+                <p class="dev-desc">
+                    Role: Mobile & Flutter-лид<br>
+                    Flagship project: Nexora Pocket — white-label SDK для банков и FinTech-приложений. Одна кодовая база, 3 платформы, 12 языков. SDK скачан >1 200 000 раз, 4,8 ★ в AppStore.
+                </p>
+            </div>
+
+            <!-- 4 -->
+            <div class="dev-card">
+                <img src="img/dev.jpg" alt="Guli" class="dev-photo">
+                <h3 class="dev-name">Ренат Гульнаров</h3>
+                <p class="dev-desc">
+                    Role: Security Engineer, официальный auditor ISO 27001<br>
+                    Flagship project: ZeroBug Pipeline — набор стат-анализаторов + динамический fuzzer, встроенный в CI. После запуска количество багов в продакшене упало до 0 (релиз 2.5 стал первым «zero-bug»).
+                </p>
+            </div>
+
+            <!-- 5 -->
+            <div class="dev-card">
+                <img src="img/dev.jpg" alt="Ilyich" class="dev-photo">
+                <h3 class="dev-name">Илья Волков</h3>
+                <p class="dev-desc">
+                    Role: Frontend / Design-system architect, React + TypeScript<br>
+                    Flagship project: Nebula-UI — дизайн-система из 42 компонентов, легла в основу интерфейса, получившего Red Dot Award 2025. Токены цвета автоматически синхронизируются с брендом Nexora.
+                </p>
+            </div>
+
+            <!-- 6 -->
+            <div class="dev-card">
+                <img src="img/dev.jpg" alt="Kate" class="dev-photo">
+                <h3 class="dev-name">Илья Морозов</h3>
+                <p class="dev-desc">
+                    Role: DevOps + SRE, Terraform, Kubernetes, ArgoCD<br>
+                    Flagship project: GreenCloud-Shift — миграция 100 % workload в регионы с renewable energy, что позволило объявить Nexora «carbon neutral». Снизила cloud-cost на 17 % за счёт spot-preemptible mix-стратегии.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
